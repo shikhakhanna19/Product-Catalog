@@ -50,6 +50,8 @@ class CatalogItem(Base):
             'name': self.name,
             'description': self.description,
             'id': self.id,
+            'catalog_id': self.catalog_id,
+            'user_id': self.user_id,
         }
 
 
